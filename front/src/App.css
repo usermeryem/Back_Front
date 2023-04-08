@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.bg-nav{
+  background: #5D9C59;
+}
+
+a{
+  color: white !important;
+}
+
+.sidebar-brand{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  font-size: 22px;
+  color: #153312;
+  font-weight: 500;
+  background-color: #5D9C59;
+}
+a{
+  text-decoration: none!important;
+}
+.sidebar-ul{
+  padding: 0 !important;
+  text-align: left;
+  list-style-type: none;
+}
+.sidebar-link{
+  text-align: left!important;
+  padding: 10px 15px ;
+  cursor: pointer;
+  background-color: #5D9C59;
+}
+.sidebar-link:hover, .sidebar-link:active,.sidebar-link:focus {
+  background-color: #153312;
+}
+.sidebar-sub-link{
+  padding: 10px 35px ;
+  cursor: pointer;
+  background-color: #5D9C59;
+}
+.sidebar-sub-link:hover{
+  background-color: #153312;
+}
+.bg-special{
+  background-color: whitesmoke;
+  opacity: 0.8;
+  border: 2px solid #d9dbda; 
+  box-shadow: inset 1px 1px 1px 1px #969696; 
+}

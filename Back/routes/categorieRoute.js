@@ -1,0 +1,10 @@
+const express= require('express')
+const { addCategorie, deleteCategorie, updateCategorie, listCategories, getCategorie, addLivretoCateg }=require('../controllers/categorieController')
+const router= express.Router()
+router.post('/addCategorie', addCategorie)
+router.delete('/deleteCategorie/:id', deleteCategorie)
+router.put('/updateCategorie/:id', updateCategorie)
+router.get('/listCategories', listCategories)
+router.get('/getCategorie/:id', getCategorie)
+router.put('/addLivreToCateg/:idCategorie/:livreId', addLivretoCateg)
+module.exports=router
